@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: black ;
+  }
+  nav ul li a:hover{
+    color:  black;
+    text-decoration: underline;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+.button-sign {
+
+  
+
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button-sign a{
+    text-decoration: none;
+    color:white;
+
+  }
+  .button-sign a:hover{
+    color: yellow;
+    
+    text-decoration: underline;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .firefox-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .hero-image {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .features {
+    padding: 40px 0;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .d {
+    padding: 40px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .d p {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-links li {
+    margin: 0;
+  }
